@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPRESYON</title>
+    
+    <!-- Google Fonts pour une typographie poétique et très lisible -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barre de progression de lecture au sommet de l'écran -->
+    <div id="progress-bar"></div>
+
+    <!-- En-tête / Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">✨</span>
+            <span class="logo-text">DEPRESYON</span>
+        </div>
+
+        <nav class="nav-links">
+            <!-- Lien externe 1 -->
+            <a href="https://dopeboy286.github.io/Elle-a-chang-ma-vie./index.html" target="_blank" class="nav-link">Autre œuvre</a>
+            
+            <!-- Lien externe 2 -->
+            <a href="https://ngl.link/englishgroup" target="_blank" class="nav-link">Laisser un commentaire</a>
+            
+            <!-- Menu déroulant "Me contacter" avec sous-titres/options -->
+            <div class="dropdown">
+                <button class="dropdown-btn">Me contacter <span class="arrow">▾</span></button>
+                <div class="dropdown-content">
+                    <a href="mailto:fanfanetienneflorient@gmail.com" class="dropdown-item">
+                        <span class="item-title">Email</span>
+                        <span class="item-sub">Ekri m pa imèl</span>
+                    </a>
+                    <a href="https://wa.me/50946183134?text=Bonsoir!" target="_blank" class="dropdown-item">
+                        <span class="item-title">WhatsApp</span>
+                        <span class="item-sub">Diskite sou WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bouton changement de thème (Sombre / Clair) -->
+            <button id="theme-toggle" class="theme-btn" title="Changer l'ambiance">🌙</button>
+        </nav>
+    </header>
+
+    <!-- En-tête principal / Banner de l'histoire -->
+    <section class="hero">
+        <h1 class="story-title">DEPRESYON</h1>
+        <p class="story-subtitle">Nou tout gen yon moman nan lavi n kote nou depresif,ann li ti refleksyon sa avèm.</p>
+        
+        <!-- Contrôles de lecture chill -->
+        <div class="controls">
+            <span class="control-label">Ajuster le texte :</span>
+            <button id="font-decrease" class="ctrl-btn">A-</button>
+            <button id="font-increase" class="ctrl-btn">A+</button>
+        </div>
+    </section>
+
+    <!-- Contenu de l'histoire -->
+    <main class="story-container" id="story-content">
+        
+        <article class="strophe reveal">
+            <p>Pafwa ou leve,<br>
+            ou santi lemond kont ou.<br>
+            Ou fè devan yo, ensilte w,<br>
+            ou fè dèyè yo, repwoche w.<br>
+            Ou fè a dwat, yo joure w,<br>
+            ou fè a goch, yo maltrete w.<br>
+            Se kòmsi ou fè lavi w ap fè tenten,<br>
+            se kòmsi ou pa janm fè anyen ki bon.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Lè w fè yon erè, yo bwouyan,<br>
+            lè w fè sa ki bon, yo silans.<br>
+            Lè se ou ki fè yon bagay,<br>
+            yo repwoche w, yo joure w.<br>
+            Men lè se yon lòt ki fè l,<br>
+            yo kite sa pase.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Èske se paske gen inegalite?<br>
+            Oswa se ou ki pwoblèm nan?<br>
+            Se kòmsi lavi vire do ba w,<br>
+            ou sèlman rete kò w ak lespri w.<br>
+            Menm lanati vire do ba w,<br>
+            epi ou rete poukont ou.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Pafwa ou santi kò w<br>
+            te sipoze gen yon bouton<br>
+            ke w kapab peze<br>
+            pou etèn lavi w.<br>
+            Bon, poukisa Dye lavi a<br>
+            pa t ba w le chwa<br>
+            pou viv ak mouri?</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Pafwa ou santi w ap viv<br>
+            kont volonte w.<br>
+            Pafwa ou pa anvi viv ankò,<br>
+            e ou pa gen ase kouraj<br>
+            pou mete fen nan vi w.<br>
+            Poukisa viv te oblije<br>
+            si difisil ke sa?<br>
+            Lèzòm pa t janm sipoze<br>
+            ap fòse viv,<br>
+            pwiske yo anseye n<br>
+            ke nou te kreye pou n viv.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Pafwa lavi a vle voye jete w<br>
+            byen lwen,<br>
+            san ke ou pa gen anyen<br>
+            pou kenbe pou pa ale.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Tout jan ou ye sou tè sa<br>
+            pa bon.<br>
+            Ou pòv,<br>
+            ap gen yon rich kap eksplwate w.<br>
+            Ou rich,<br>
+            pwoblèm santimantal ak travay<br>
+            ka soti pou fini avè w.<br>
+            Ou mwayen,<br>
+            travay di ak fòse rete mwayen<br>
+            ka fini avè w.</p>
+        </article>
+
+        <article class="strophe reveal highlight-box">
+            <p>Men pito ou rich<br>
+            ou pa bon,<br>
+            olye ou pòv<br>
+            epi w pa bon,<br>
+            paske ou vin sanse<br>
+            gen de pèn a la fwa.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Se lè ou fou<br>
+            ou gen yon ti souf,<br>
+            pwiske w ap viv san anyen,<br>
+            pa anyen pou ou.<br>
+            Ou nan pwòp mond ou<br>
+            poukont ou.<br>
+            Ou nan ilizyon w<br>
+            poukont ou.</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Pafwa ou konn fè yon byen,<br>
+            yon moun mal entèprete l,<br>
+            epi li fè l pase pou mal.<br>
+            Lè sa, ou gen lenpresyon<br>
+            tout sa w fè<br>
+            pap janm bon.<br>
+            E lè w rete,<br>
+            pa fè anyen,<br>
+            yo di w parese,<br>
+            yo joure w,<br>
+            yo di w pa itil.</p>
+        </article>
+
+        <!-- Section de questions / doutes intérieurs -->
+        <article class="strophe reveal questions-section">
+            <p>Èske yon jou sa yo gen pou fini?<br>
+            Kilè moun ap sispann viv ak depresyon?<br>
+            Kilè yo ap sispann itilize w?<br>
+            Kilè Bondye ap resi di yon mo?<br>
+            Kilè w ap kapab viv jan w vle a, san ke w pa deranje pèsonn?<br>
+            Kilè w ap sispann gen lenpresyon tout moun kont ou?<br>
+            Kilè n ap sispann gen anvi mouri?<br>
+            Kilè nan zòrèy ou w ap sispann tande pawòl lèzòm kreye pou fini avè w?<br>
+            Kilè w ap resi jwenn yon moun pou akonpaye w nan soufrans ou?<br>
+            Kilè w ap resi gen kouraj pou fè konfyans?<br>
+            Pwiske a chak fwa ou fè konfyans, yo trayi w.<br>
+            Kilè n ap sispann resevwa repwòch sèlman?<br>
+            Kilè y ap resi felisite n pou sa nou fè ki bon?</p>
+        </article>
+
+        <article class="strophe reveal">
+            <p>Pafwa lè lavi a vle jete m byen lwen,<br>
+            mwen pran yon plim ak yon kaye,<br>
+            mwen ekri tout sa ki nan tèt mwen.</p>
+        </article>
+
+        <!-- Message final plein d'espoir -->
+        <article class="strophe reveal hope-card">
+            <p class="card-title">🌟 Yon ti mo pou ou</p>
+            <p>Si gen yon moun pami nou ki ap li sa ki tankou mwen,<br>
+            fè sa n kapab pou chagren pa touye nou.<br>
+            E toujou mete nan tèt nou ke ap gen yon jou ki ap pou nou.<br>
+            Yon jou kote ti limyè ki ap briye nan ou a<br>
+            ap resi vizib nan zye mechan yo.</p>
+            
+            <p>Defo w yo la sèlman pou sèvi imaj ou,<br>
+            pandan ke y ap toujou bliye kalite yo.<br>
+            N ap viv pandan ke n ap chache pèfeksyon,<br>
+            pandan ke pèfeksyon pa p chache n.<br>
+            Sèl sa nou ka fè, se fè fason pou omwen ou pafè,<br>
+            te mèt se pou tèt ou sèlman.</p>
+
+            <p class="final-quote">Ou menm k ap li ti mo sa yo,<br>
+            pa bliye chache sa w renmen fè pou fè.<br>
+            Lè lè depresyon an pwal rive, sonje ti limyè a.<br>
+            Pa kite chagren fè w bliye ou menm.<br>
+            Epi sonje : <strong>ap gen yon jou ki ap pou nou.</strong></p>
+            
+            <span class="thanks">Mèsi ! ❤️</span>
+        </article>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2026 — FANFAN. Toujours faire en sorte de garder sa petite lumière allumée.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
